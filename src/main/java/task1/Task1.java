@@ -19,6 +19,7 @@ public class Task1 {
         if(scanner.hasNextLine()){
             line = scanner.nextLine();
         }
+        scanner.close();
         return line;
     }
 
