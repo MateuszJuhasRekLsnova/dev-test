@@ -22,6 +22,9 @@ public class IntsSorterTest {
             Assert.assertEquals(intsOrdered[i], sortedInt.intValue());
             i++;
         }
+        Assert.assertEquals(8, sorter.getMax());
+        Assert.assertEquals(0, sorter.getMin());
+        Assert.assertEquals(12, sorter.getCount());
     }
 
     @Test(expected = NumberFormatException.class)
